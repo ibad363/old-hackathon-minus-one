@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html, body {
+  background-color: #dfdddd;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+  width: 100%;
+  gap: 30px;
+}
+
+.sidebar{
+    background-color: #433f3f;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.profile-pic{
+  width: 100%;
+  height: 300px;
+  border: 3px solid #f2c744;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h3{
+  color: #f2c744;
+  margin-bottom: 15px;
+}
+
+.career-objective,
+.certification {
+  margin-bottom: 20px;
+}
+
+.main-content{
+  flex-grow: 0.1;
+  width: 450px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+h2{
+  color: #f2c744;
+  border-bottom: 3px solid #f2c744;
+  padding-bottom: 10px;
+}
+
+.personal-info p,
+.education p{
+  margin: 20px 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+button{
+  padding: 10px 15px;
+  border: 0px solid #433f3f;
+  border-radius: 10px;
+  color: white;
+  background-color: #433f3f;
+}
+
+ul li{
+  margin: 15px 5px;
+  list-style: none;
+}
+
+@media (max-width: 1072px) {
+  .sidebar {
+    margin: 0 auto; /* Center the sidebar */
+  }
+  .main-content{
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px){
+  .container{
+    flex-direction: column;
+  }
+
+  .sidebar{
+    width: auto;
+  }
+  
+  .main-content{
+    width: auto;
+  }
+
+  .profile-pic{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
+
+  h2,h3{
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px){
+  .sidebar,
+  .main-content{
+    padding: 25px;
+  }
+
+  button{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .profile-pic{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+  }
+
+  a{
+    word-wrap: break-word;
+  }
+}
