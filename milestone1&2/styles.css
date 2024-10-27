@@ -8,6 +8,14 @@ html, body {
   font-family: Arial, sans-serif;
 }
 
+.heading{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #f2c744;
+  padding: 15px;
+}
+
 .container{
   display: flex;
   justify-content: center;
