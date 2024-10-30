@@ -88,12 +88,13 @@ button:hover{
     border: 2px solid rgb(252, 163, 54);
     border-radius: 20px;
     margin: 10px auto;
-    word-break: break-all;
+    word-break: break-word;
     @media (max-width: 768px) {
         text-align: center;
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
+        font-size: 15px;
     }
 }
 
