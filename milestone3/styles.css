@@ -4,6 +4,10 @@ body{
 
 .heading{
     text-align: center;
+    @media (max-width: 768px) {
+        font-size: 25px;
+        margin-bottom: -5px;
+    }
 }
 
 .container {
@@ -100,6 +104,12 @@ button:hover{
 
 .resume-section > p{
     margin-top: -20px;
+}
+
+.resume-section > h1{
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 .list{
