@@ -11,8 +11,15 @@ form.addEventListener("submit", (e) =>{
     const email = (document.getElementById("email") as HTMLInputElement).value
     const phoneNumber = (document.getElementById("phone-number") as HTMLInputElement).value
     const education = (document.getElementById("education") as HTMLTextAreaElement).value
-    const experience = (document.getElementById("experience") as HTMLTextAreaElement).value
+    let experience = (document.getElementById("experience") as HTMLTextAreaElement).value
     const skills = (document.getElementById("skills") as HTMLTextAreaElement).value
+
+
+    if (experience){
+        experience = (document.getElementById("experience") as HTMLTextAreaElement).value
+    }else{
+        experience = "No Experience"
+    }
 
     // Generate the resume content dynamically
     const resumeContent = `

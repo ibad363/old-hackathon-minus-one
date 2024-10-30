@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Interactive Resume Builder</title>
+    <title>Dynamic Resume Builder</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <!-- Heading -->
-        <div><h1 class="heading">Dynamic Interactive Resume Builder</h1></div>
+        <div><h1 class="heading">Dynamic Resume Builder</h1></div>
         
         <!-- Form -->
         <form id="resumeForm">
@@ -36,7 +36,7 @@
             </fieldset>
 
             <fieldset>
-                <legend><h2>Experience</h2></legend>
+                <legend><h2>Experience (Optional)</h2></legend>
 
                 <label for="experience">Work Experience:</label>
                 <textarea id="experience" placeholder="Enter Your Work Experience" rows="4" cols="50"></textarea>
@@ -46,7 +46,7 @@
                 <legend><h2>Skills</h2></legend>
 
                 <label for="skills">Your Skills:</label>
-                <textarea id="skills" placeholder="Enter Your Skills" rows="4" cols="50"></textarea>
+                <textarea id="skills" placeholder="Enter Your Skills" rows="4" cols="50" required></textarea>
             </fieldset>
             <button type="submit">Generate Resume</button>
         </form>

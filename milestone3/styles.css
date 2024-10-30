@@ -40,6 +40,12 @@ fieldset{
     margin: 20px auto;
 }
 
+fieldset legend h2{
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
 label{
     font-size: 20px;
     font-weight: bold;
