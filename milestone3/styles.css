@@ -45,7 +45,8 @@ input, textarea{
     padding: 10px;
     border-radius: 8px;
     border: 1px solid rgb(255, 186, 103);
-    columns: 1;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button{
