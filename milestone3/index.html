@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Interactive Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <div><h1 class="heading">Dynamic Interactive Resume Builder</h1></div>
+        
+        <!-- Form -->
+        <form id="resumeForm">
+            <fieldset>
+                <legend>
+                    <h2>Personal Information</h2>
+                </legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name" required >
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Your Email" required >
+    
+                <label for="phone-number">Phone Number:</label>
+                <input type="number" id="phone-number" placeholder="Enter Your Phone Number" required >
+            </fieldset>
+
+
+            <fieldset>
+                <legend><h2>Education</h2></legend>
+
+                <label for="education">Educational Details:</label>
+                <textarea id="education" rows="4" cols="50" placeholder="Enter Your Educational Details" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Experience</h2></legend>
+
+                <label for="experience">Work Experience:</label>
+                <textarea id="experience" placeholder="Enter Your Work Experience" rows="4" cols="50"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Skills</h2></legend>
+
+                <label for="skills">Your Skills:</label>
+                <textarea id="skills" placeholder="Enter Your Skills" rows="4" cols="50"></textarea>
+            </fieldset>
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <!-- Resume Preview -->
+         <div id="resume-display">
+            <!-- resume will be displayed here -->
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
