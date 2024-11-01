@@ -185,4 +185,7 @@ button:hover{
 
 #shareable-link-container{
     text-align: center;
+    @media print {
+        display: none !important;
+    }
 }
