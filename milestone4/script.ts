@@ -33,7 +33,7 @@ form.addEventListener("submit", (e) =>{
 
     <div class="resume-section">
         <h1>Email</h1>
-        <p contenteditable="true"   >${email}</p>
+        <p contenteditable="true">${email}</p>
     </div>
 
     <div class="resume-section">
