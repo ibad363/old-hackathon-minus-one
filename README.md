@@ -1,7 +1,7 @@
-**Hackathon Milestone 1 & 2:** https://hackathon-milestone-1-2-ibad.vercel.app/
+**Hackathon Milestone 1 & 2:** https://old-hackathon-minus-one.vercel.app/milestone1&2/index.html
 
-**Hackathon Milestone 3:** https://hackathon-milestone-3-ibad.vercel.app/
+**Hackathon Milestone 3:** https://old-hackathon-minus-one.vercel.app/milestone3/index.html
 
-**Hackathon Milestone 4:** https://hackathon-milestone-4-ibad.vercel.app/
+**Hackathon Milestone 4:** https://old-hackathon-minus-one.vercel.app/milestone4/index.html
 
-**Hackathon Milestone 5:** https://hackathon-milestone-5-ibad.vercel.app/
+**Hackathon Milestone 5:** https://old-hackathon-minus-one.vercel.app/milestone5/index.html
